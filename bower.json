@@ -1,0 +1,36 @@
+{
+  "name": "soar",
+  "description": "A visualization tool to view past and present flights.",
+  "main": "src/main/webapp/index.html",
+  "authors": [
+    "Grant McGovern"
+  ],
+  "license": "Apache 2.0",
+  "keywords": [
+    "flights",
+    "flight",
+    "soar",
+    "tracking"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "homepage": "http://soar-app.herokuapp.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/main/webapp/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-loader": "1.3.0-beta.14",
+    "angular-mocks": "1.3.0-beta.14",
+    "angular-animate": "1.3.0-beta.14",
+    "angular-route": "1.3.0-beta.14",
+    "bootstrap": "^3.3.6",
+    "angular": "1.3.0-beta.14"
+  }
+}
